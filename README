@@ -1,0 +1,7 @@
+Use VSCodd's PlatformIO extension to inject the code to an Arduino Uno R3
+
+In your PlatformIO project folder,
+Upload the custom.cpp file to the src folder,
+And all other files belong in the include folder.
+
+UART communication is done via a Raspberry Pi Zero W\'92s USB port. The UART code for the Pi Zero may be found on my Github page under the "uart_weather" repo
